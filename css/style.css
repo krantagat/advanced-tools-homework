@@ -8,13 +8,24 @@
 body {
   margin-top: 100px;
   color: var(--text-color);
+  background-color: #a793f833;
+  margin: 20px;
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+.content {
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
 }
 
 h1 {
@@ -28,6 +39,7 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  margin-top: 10px;
 }
 
 p {
@@ -46,7 +58,7 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: center;
 }
 
