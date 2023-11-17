@@ -34,6 +34,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  margin: 0;
 }
 
 h3 {
@@ -114,4 +115,44 @@ p {
 
 a:hover {
   color: #cdbcef;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 46px;
+    /* 96 */
+    text-align: center;
+  }
+  h2 {
+    font-size: 38px;
+    /* 48 */
+    text-align: center;
+  }
+  h3 {
+    font-size: 17px;
+    /* 24 */
+  }
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+  img {
+    margin-top: 25px;
+  }
+  .about-paragraphs {
+    margin-bottom: 0;
+  }
+  .contact-link {
+    font-size: 14px;
+  }
+
+  .navigation-links {
+    font-size: 14px;
+  }
+  .contact-link.p-3.rounded {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
